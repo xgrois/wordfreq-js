@@ -11,7 +11,7 @@ How people consider this problem: _Mid-complexity_
 
 ## Result
 
-Check it online as a GitHub Page: [https://xgrois.ch-js-wordfreq](https://xgrois.ch-js-wordfreq)
+Check it online as a GitHub Page: [https://xgrois.github.io/wordfreq-js/](https://xgrois.github.io/wordfreq-js/)
 
 ## Design
 
