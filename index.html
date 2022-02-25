@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Word Count</title>
+
+		<link rel="stylesheet" href="style.css" />
+		<script src="word-count.js" defer></script>
+	</head>
+	<body>
+		<main class="container">
+			<header class="header">
+				<img src="algoritmos.png" alt="logo" class="logo" />
+				<h1 class="title">Word Count Challengue</h1>
+			</header>
+			<div class="main-area">
+				<div class="input-container">
+					<div class="input-area">
+						<div>
+							<textarea
+								class="textarea"
+								placeholder="Escribe tu frase aquí..."
+							></textarea>
+							<p class="note">*Spanish language</p>
+						</div>
+						<button class="btn" onclick="clearInput()">
+							Clear
+						</button>
+					</div>
+				</div>
+				<div class="results-area">
+					<p class="word-list-title">Word list</p>
+					<ul class="word-list"></ul>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
